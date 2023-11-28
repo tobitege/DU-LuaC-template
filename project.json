@@ -1,0 +1,49 @@
+{
+    "cli": {
+      "fmtVersion": 3
+    },
+    "name": "DU-myscript",
+    "description": "Description for my script",
+    "sourcePath": "lua",
+    "outputPath": "out",
+    "libs": [],
+    "builds": {
+      "mainScript": {
+        "name": "main",
+        "type": "control",
+        "slots": {}
+      },
+      "fixedSlots": {
+        "name": "mainWithFixedSlots",
+        "type": "control",
+        "slots": {
+          "0": {
+              "name": "MyScreen",
+              "type": "screen"
+          },
+          "1": {
+              "name": "MyDB",
+              "type": "databank"
+          }
+        }
+      }  
+    },
+    "targets": {
+      "development": {
+        "name": "development",
+        "minify": false,
+        "handleErrors": false
+      },
+      "release": {
+        "name": "release",
+        "minify": true,
+        "handleErrors": false
+      }
+    },
+    "internalPaths": [
+      "autoconf/",
+      "cpml/",
+      "pl/",
+      "utils/event"
+    ]
+  }

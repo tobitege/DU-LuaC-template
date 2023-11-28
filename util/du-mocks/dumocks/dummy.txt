@@ -1,0 +1,2 @@
+This folder would contain DU-Mocks files available here:
+https://github.com/1337joe/du-mocks
