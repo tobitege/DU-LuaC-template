@@ -121,7 +121,8 @@ Lua CLI Utility for Dual Universe v1.2.1 by Wolfe Labs @ Node v20.5.1
 [BUILDER] JSON build size: 14.41 kB out of 200.00 kB (7.21%)
 [BUILDER] CONF build size: 10.82 kB out of 180.00 kB (6.01%)
 
-[SUCCESS] Build completed successfully!```
+[SUCCESS] Build completed successfully!
+```
 
 ### Credits
 
