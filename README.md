@@ -61,7 +61,7 @@ must exist within DU constructs.
 
 All elements need to be deployed on the same construct, as usual.
 
-- Deploy programming board, a databank and a screen.
+- Deploy programming board, a screen and a databank.
 - Link the screen, then the databank to the board (important for the 2nd script!).
 - Install onto the board on of the "main.json" or "mainWithFixedSlots.json" scripts
     from the "out\development" folder.
@@ -71,6 +71,7 @@ All elements need to be deployed on the same construct, as usual.
 ## Script Installation
 
 **General installation steps in DU:**
+
 For *programming boards* open a .json file in the above mentioned out\development
 folder, copy its full content to clipboard and in game right click the programming
 board to get the "Advanced" menu popup.
