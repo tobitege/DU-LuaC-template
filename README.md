@@ -96,7 +96,7 @@ JSON file for the "main" script to be copied to the Windows clipboard,
 so it can then immediately be pasted in-game onto a programming board.
 This is a huge timesaver during development!
 
-```D:\github\DU-LuaC-template>du-lua build development --copy=development/main        
+```D:\github\DU-LuaC-template>du-lua build development --copy=development/main
 Lua CLI Utility for Dual Universe v1.2.1 by Wolfe Labs @ Node v20.5.1
 
 [BUILDER] Starting build main for target development...
